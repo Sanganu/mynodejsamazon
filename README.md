@@ -7,11 +7,11 @@ This App was developed as a requirement for bootcamp program.
     c. Exiting - displays order total.
     d. Check for quantity and throws messages of Insufficient quantity.
     PreviousRepoLink: https://github.com/scodingjs/hjtsmclss/blob/master/Myamazon/myamazon.js
-    
+
 2. Manager
-    a. Menu of (Display all products, Specific Product details, exit application)
+    a. Menu of (Display all products, Specific Product details, e xit application)
     b. Inquirer input from the options by list
-    3. https://github.com/scodingjs/hjtsmclss/blob/master/Myamazon/myamazonsuperior.js
+    3.Previous Repo Link:  https://github.com/scodingjs/hjtsmclss/blob/master/Myamazon/myamazonsuperior.js
 
 3. Supervisor Option
     a. List of all products
@@ -22,4 +22,4 @@ This App was developed as a requirement for bootcamp program.
     f. Looping to check - to add more inventory
        - to add more products.
 
-The Previous App deploed link: https://github.com/scodingjs/hjtsmclss/blob/master/Myamazon/myamazonManager.js
+The Previous App Repo link: https://github.com/scodingjs/hjtsmclss/blob/master/Myamazon/myamazonManager.js

@@ -8,14 +8,14 @@ var connection = mysql.createConnection({
 host: "localhost",
 port:3306,
 user: "root",
-password:"",
+password:"Mykutties2",
 database:"dubootcamp"
 });
 
 var gl_prodid = [];
 
-startdb();
-displaywhattodo();
+// startdb();
+ displaywhattodo();
 
 
 function startdb()
@@ -23,7 +23,8 @@ function startdb()
     connection.connect(function(err)
     {
       if(err)throw err;
-      //console.log('Connected :'+connection.threadId);
+      displaywhattodo(); 
+      console.log('Connected :'+connection.threadId);
     }); // Database Connection established
 }
 /*
@@ -165,8 +166,11 @@ function displaywhattodo()
              {
                connection.end;
                console.log('See you next time!!');
-               //process.exit(0);
+               process.exit(0);
              }
            });
-           console.log("After inquire");
+          //  console.log("After inquire");
+          //displaywhattodo();
+          
 }
+ 
